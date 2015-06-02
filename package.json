@@ -25,7 +25,19 @@
   "keywords": [
     "compute.io",
     "compute",
-    "computation"
+    "computation",
+    "constructor",
+    "typed-array",
+    "typed",
+    "array",
+    "ctor",
+    "dtype",
+    "data",
+    "type",
+    "util",
+    "utils",
+    "utility",
+    "utilities"
   ],
   "bugs": {
     "url": "https://github.com/compute-io/array-dtypes/issues"
