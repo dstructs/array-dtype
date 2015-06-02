@@ -1,4 +1,4 @@
-Array dtypes
+array-dtype
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
 
@@ -8,7 +8,7 @@ Array dtypes
 ## Installation
 
 ``` bash
-$ npm install compute-array-dtypes
+$ npm install compute-array-dtype
 ```
 
 For use in the browser, use [browserify](https://github.com/substack/node-browserify).
@@ -17,7 +17,7 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 ## Usage
 
 ``` javascript
-var getType = require( 'compute-array-dtypes' );
+var getType = require( 'compute-array-dtype' );
 ```
 
 #### getType( name )
@@ -57,7 +57,7 @@ The following `array` constructors are supported:
 ## Examples
 
 ``` javascript
-var getType = require( 'compute-array-dtypes' );
+var getType = require( 'compute-array-dtype' );
 
 console.log( getType( 'Int8Array' ) );
 // returns 'int8'
@@ -160,20 +160,20 @@ $ make view-cov
 Copyright &copy; 2015. The Compute.io Authors.
 
 
-[npm-image]: http://img.shields.io/npm/v/compute-array-dtypes.svg
-[npm-url]: https://npmjs.org/package/compute-array-dtypes
+[npm-image]: http://img.shields.io/npm/v/compute-array-dtype.svg
+[npm-url]: https://npmjs.org/package/compute-array-dtype
 
-[travis-image]: http://img.shields.io/travis/compute-io/array-dtypes/master.svg
-[travis-url]: https://travis-ci.org/compute-io/array-dtypes
+[travis-image]: http://img.shields.io/travis/compute-io/array-dtype/master.svg
+[travis-url]: https://travis-ci.org/compute-io/array-dtype
 
-[coveralls-image]: https://img.shields.io/coveralls/compute-io/array-dtypes/master.svg
-[coveralls-url]: https://coveralls.io/r/compute-io/array-dtypes?branch=master
+[coveralls-image]: https://img.shields.io/coveralls/compute-io/array-dtype/master.svg
+[coveralls-url]: https://coveralls.io/r/compute-io/array-dtype?branch=master
 
-[dependencies-image]: http://img.shields.io/david/compute-io/array-dtypes.svg
-[dependencies-url]: https://david-dm.org/compute-io/array-dtypes
+[dependencies-image]: http://img.shields.io/david/compute-io/array-dtype.svg
+[dependencies-url]: https://david-dm.org/compute-io/array-dtype
 
-[dev-dependencies-image]: http://img.shields.io/david/dev/compute-io/array-dtypes.svg
-[dev-dependencies-url]: https://david-dm.org/dev/compute-io/array-dtypes
+[dev-dependencies-image]: http://img.shields.io/david/dev/compute-io/array-dtype.svg
+[dev-dependencies-url]: https://david-dm.org/dev/compute-io/array-dtype
 
-[github-issues-image]: http://img.shields.io/github/issues/compute-io/array-dtypes.svg
-[github-issues-url]: https://github.com/compute-io/array-dtypes/issues
+[github-issues-image]: http://img.shields.io/github/issues/compute-io/array-dtype.svg
+[github-issues-url]: https://github.com/compute-io/array-dtype/issues

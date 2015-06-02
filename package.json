@@ -1,5 +1,5 @@
 {
-  "name": "compute-array-dtypes",
+  "name": "compute-array-dtype",
   "version": "0.0.0",
   "description": "Returns an array data type corresponding to an array constructor name.",
   "author": {
@@ -20,7 +20,7 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "git://github.com/compute-io/array-dtypes.git"
+    "url": "git://github.com/compute-io/array-dtype.git"
   },
   "keywords": [
     "compute.io",
@@ -40,7 +40,7 @@
     "utilities"
   ],
   "bugs": {
-    "url": "https://github.com/compute-io/array-dtypes/issues"
+    "url": "https://github.com/compute-io/array-dtype/issues"
   },
   "dependencies": {},
   "devDependencies": {
