@@ -1,6 +1,6 @@
 {
   "name": "compute-array-dtype",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Returns an array data type corresponding to an array constructor name.",
   "author": {
     "name": "Athan Reines",
