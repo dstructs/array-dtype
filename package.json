@@ -1,5 +1,5 @@
 {
-  "name": "compute-array-dtype",
+  "name": "dstructs-array-dtype",
   "version": "1.0.1",
   "description": "Returns an array data type corresponding to an array constructor name.",
   "author": {

@@ -8,7 +8,7 @@ array-dtype
 ## Installation
 
 ``` bash
-$ npm install compute-array-dtype
+$ npm install dstructs-array-dtype
 ```
 
 For use in the browser, use [browserify](https://github.com/substack/node-browserify).
@@ -17,7 +17,7 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 ## Usage
 
 ``` javascript
-var getType = require( 'compute-array-dtype' );
+var getType = require( 'dstructs-array-dtype' );
 ```
 
 #### getType( name )
@@ -57,7 +57,7 @@ The following `array` constructors are supported:
 ## Examples
 
 ``` javascript
-var getType = require( 'compute-array-dtype' );
+var getType = require( 'dstructs-array-dtype' );
 
 console.log( getType( 'Int8Array' ) );
 // returns 'int8'
@@ -160,8 +160,8 @@ $ make view-cov
 Copyright &copy; 2015. The Compute.io Authors.
 
 
-[npm-image]: http://img.shields.io/npm/v/compute-array-dtype.svg
-[npm-url]: https://npmjs.org/package/compute-array-dtype
+[npm-image]: http://img.shields.io/npm/v/dstructs-array-dtype.svg
+[npm-url]: https://npmjs.org/package/dstructs-array-dtype
 
 [travis-image]: http://img.shields.io/travis/dstructs/array-dtype/master.svg
 [travis-url]: https://travis-ci.org/dstructs/array-dtype
