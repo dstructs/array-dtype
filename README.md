@@ -1,6 +1,6 @@
 array-dtype
 ===
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependencies][dependencies-image]][dependencies-url]
 
 > Returns an array data type corresponding to an array constructor name.
 
@@ -42,16 +42,16 @@ The following `array` constructors are supported:
 
 | Constructor | Data Type |
 |:----------|:------------|
-| [`Int8Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array) | int8 | 
-| [`Uint8Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array) | uint8 | 
-| [`Uint8ClampedArray`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray) | uint8_clamped |
-| [`Int16Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array) | int16 |
-| [`Uint16Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array) | uint16 |
-| [`Int32Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array) | int32 |
-| [`Uint32Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array) | uint32 |
-| [`Float32Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array) | float32 |
-| [`Float64Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array) | float64 |
-| [`Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) | generic |
+| [`Int8Array`][Int8Array] | int8 | 
+| [`Uint8Array`][Uint8Array] | uint8 | 
+| [`Uint8ClampedArray`][Uint8ClampedArray] | uint8_clamped |
+| [`Int16Array`][Int16Array] | int16 |
+| [`Uint16Array`][Uint16Array] | uint16 |
+| [`Int32Array`][Int32Array] | int32 |
+| [`Uint32Array`][Uint32Array] | uint32 |
+| [`Float32Array`][Float32Array] | float32 |
+| [`Float64Array`][Float64Array] | float64 |
+| [`Array`][Array] | generic |
 
 
 ## Examples
@@ -125,7 +125,7 @@ $ node ./examples/index.js
 
 ### Unit
 
-Unit tests use the [Mocha](http://mochajs.org/) test framework with [Chai](http://chaijs.com) assertions. To run the tests, execute the following command in the top-level application directory:
+Unit tests use the [Mocha][mocha] test framework with [Chai][chai] assertions. To run the tests, execute the following command in the top-level application directory:
 
 ``` bash
 $ make test
@@ -136,7 +136,7 @@ All new feature development should have corresponding unit tests to validate cor
 
 ### Test Coverage
 
-This repository uses [Istanbul](https://github.com/gotwarlost/istanbul) as its code coverage tool. To generate a test coverage report, execute the following command in the top-level application directory:
+This repository uses [Istanbul][istanbul] as its code coverage tool. To generate a test coverage report, execute the following command in the top-level application directory:
 
 ``` bash
 $ make test-cov
@@ -163,17 +163,32 @@ Copyright &copy; 2015. The Compute.io Authors.
 [npm-image]: http://img.shields.io/npm/v/compute-array-dtype.svg
 [npm-url]: https://npmjs.org/package/compute-array-dtype
 
-[travis-image]: http://img.shields.io/travis/compute-io/array-dtype/master.svg
-[travis-url]: https://travis-ci.org/compute-io/array-dtype
+[travis-image]: http://img.shields.io/travis/dstructs/array-dtype/master.svg
+[travis-url]: https://travis-ci.org/dstructs/array-dtype
 
-[coveralls-image]: https://img.shields.io/coveralls/compute-io/array-dtype/master.svg
-[coveralls-url]: https://coveralls.io/r/compute-io/array-dtype?branch=master
+[codecov-image]: https://img.shields.io/codecov/c/github/dstructs/array-dtype/master.svg
+[codecov-url]: https://codecov.io/github/dstructs/array-dtype?branch=master
 
-[dependencies-image]: http://img.shields.io/david/compute-io/array-dtype.svg
-[dependencies-url]: https://david-dm.org/compute-io/array-dtype
+[dependencies-image]: http://img.shields.io/david/dstructs/array-dtype.svg
+[dependencies-url]: https://david-dm.org/dstructs/array-dtype
 
-[dev-dependencies-image]: http://img.shields.io/david/dev/compute-io/array-dtype.svg
-[dev-dependencies-url]: https://david-dm.org/dev/compute-io/array-dtype
+[dev-dependencies-image]: http://img.shields.io/david/dev/dstructs/array-dtype.svg
+[dev-dependencies-url]: https://david-dm.org/dev/dstructs/array-dtype
 
-[github-issues-image]: http://img.shields.io/github/issues/compute-io/array-dtype.svg
-[github-issues-url]: https://github.com/compute-io/array-dtype/issues
+[github-issues-image]: http://img.shields.io/github/issues/dstructs/array-dtype.svg
+[github-issues-url]: https://github.com/dstructs/array-dtype/issues
+
+[mocha]: http://mochajs.org/
+[chai]: http://chaijs.com
+[istanbul]: https://github.com/gotwarlost/istanbul
+
+[Int8Array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array
+[Uint8Array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array
+[Uint8ClampedArray]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray
+[Int16Array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array
+[Uint16Array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array
+[Int32Array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array
+[Uint32Array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array
+[Float32Array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array
+[Float64Array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array
+[Array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array

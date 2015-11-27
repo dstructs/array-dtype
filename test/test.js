@@ -3,10 +3,7 @@
 
 // MODULES //
 
-var // Expectation library:
-	chai = require( 'chai' ),
-
-	// Module to be tested:
+var chai = require( 'chai' ),
 	getType = require( './../lib' );
 
 
@@ -18,7 +15,7 @@ var expect = chai.expect,
 
 // TESTS //
 
-describe( 'compute-array-dtype', function tests() {
+describe( 'dstructs-array-dtype', function tests() {
 
 	it( 'should export a function', function test() {
 		expect( getType ).to.be.a( 'function' );
