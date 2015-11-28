@@ -11,7 +11,7 @@ array-dtype
 $ npm install dstructs-array-dtype
 ```
 
-For use in the browser, use [browserify](https://github.com/substack/node-browserify).
+For use in the browser, use [browserify][browserify].
 
 
 ## Usage
@@ -181,6 +181,7 @@ Copyright &copy; 2015. The Compute.io Authors.
 [mocha]: http://mochajs.org/
 [chai]: http://chaijs.com
 [istanbul]: https://github.com/gotwarlost/istanbul
+[browserify]: https://github.com/substack/node-browserify
 
 [Int8Array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array
 [Uint8Array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array
